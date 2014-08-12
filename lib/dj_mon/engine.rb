@@ -4,8 +4,8 @@ module DjMon
     isolate_namespace DjMon
 
     config.dj_mon = ActiveSupport::OrderedOptions.new
-    config.dj_mon.username = "admin@bypasslane.com"
-    config.dj_mon.password = "minhingiswinning"
+    config.dj_mon.username = "admin@example.com"
+    config.dj_mon.password = "djmonitor"
 
     if Rails.version > "3.1"
       initializer "DJMon precompile hook" do |app|

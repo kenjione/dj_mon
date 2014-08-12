@@ -71,7 +71,7 @@
             = submit_tag 'Delete', :class => 'btn btn-danger btn-mini'
           =link_to 'Edit', edit_dj_report_url(:id => report.id), class: 'btn btn-mini'
 .center
-  = will_paginate @reports, class: 'center'
+  = paginate @reports
 
 
 .modal.hide
